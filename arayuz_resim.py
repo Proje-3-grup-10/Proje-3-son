@@ -55,7 +55,7 @@ class ResimArayuzu:
         tk.Label(ana_frame, text="RESİM BULMACASI", font=opt.FONT_BASLIK,
                  fg=opt.RENK_BASLIK, bg=opt.RENK_ARKA_PLAN).pack(pady=15)
 
-        grid_frame = tk.Frame(ana_frame, bg=opt.RENK_GRID_CERCEVE, bd=12, relief="ridge")
+        grid_frame = tk.Frame(ana_frame, bg=opt.RENK_GRID_CERCEVE, bd=0, relief="ridge")
         grid_frame.pack(pady=10)
 
         for r in range(opt.BOYUT):
